@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 20170804125023) do
 
   create_table "categories", force: :cascade do |t|
     t.string "title"
-    t.string "photo"
+    t.string "image"
     t.string "slug"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -44,7 +44,7 @@ ActiveRecord::Schema.define(version: 20170804125023) do
   create_table "products", force: :cascade do |t|
     t.string "name"
     t.string "title"
-    t.string "photo"
+    t.string "image"
     t.text "description"
     t.integer "price"
     t.text "status"
