@@ -2,7 +2,7 @@ class CreateCategories < ActiveRecord::Migration[5.1]
   def change
     create_table :categories do |t|
       t.string :title
-      t.string :photo
+      t.string :image
       t.string :slug
 
       t.timestamps
