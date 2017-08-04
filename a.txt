@@ -1,0 +1,798 @@
+    1  rails -v
+    2  ruby -v
+    3  cd
+    4  ls Downloads
+    5  cd Downloads
+    6  rails
+    7  rails new blog
+    8  cd blog/
+    9  ls
+   10  rails s
+   11  rails server
+   12  rails generate controller Welcome index 
+   13  subl .
+   14  rails server
+   15  rake routes
+   16  rails generate controller Articles
+   17  rake routes
+   18  rails generate model  Article title text
+   19  rails db:migrate 
+   20  rails console
+   21  rake routes
+   22  q
+   23  rails routes
+   24  cd ..
+   25  ls
+   26  cd lyk2017-blog-master
+   27  rails s
+   28  rails routes
+   29  cd ..
+   30  ls
+   31  cd blog
+   32  subl .
+   33  rails g model Comment commenter body:text article:references
+   34  rake db:migrate
+   35  rake routes
+   36  rails g model controller Comments
+   37  init 0
+   38  cd Dow
+   39  cd Downloads
+   40  ls
+   41  cd lyk2017-blog-master (2)
+   42  cd lyk2017-blog-master 
+   43  cd ..
+   44  ls
+   45  cd lyk2017-blog-master\ \(2\)
+   46  rake routes
+   47  rails routes
+   48  rails server
+   49  subl
+   50  cd Downloads/lyk2017-blog-master
+   51  cd ..
+   52  cd lyk2017-blog-master\ \(2\)
+   53  rails db:migrate
+   54  subl .
+   55  rails generate model Product
+   56  rails db:migrate
+   57  rake db:migrate
+   58  rails c
+   59  rake db:rolback
+   60  rake db:migrate:status
+   61  rake db:migrate
+   62  rails c
+   63  rake db:rollback
+   64  rake db:migrate
+   65  rails c
+   66  rake db:migrate
+   67  rails c
+   68  rake routes
+   69  rake db:migration
+   70  rails c
+   71  rake db:rollback
+   72  rake db:migrate
+   73  rails c
+   74  rake db:migrate
+   75  rake db:rollback
+   76  rake db:migrate
+   77  cd Downloads/
+   78  ls
+   79  cd lyk2017-blog-master\ \(2\)
+   80  rails server
+   81  cd Downloads
+   82  cd lyk2017-blog-master\ \(2\)
+   83  subl .
+   84  rails c
+   85  rails q migration AddSizeToProduct size:string
+   86  rake db:migrate
+   87  rails c
+   88  rails g  migration AddSizeToProduct size:string
+   89  rake db:migrate
+   90  rails c
+   91  rails g  migration AddSizeToProduct size:string
+   92  rake db:migrate
+   93  rails c
+   94  cd ..
+   95  rails new-project
+   96  mkdir proje
+   97  cd proje
+   98  rails proje
+   99  rail proje
+  100  rails new project
+  101  cd project
+  102  ls
+  103  cd proje
+  104  ls
+  105  cd project
+  106  rails server
+  107  rails generate controller Category 
+  108  subl .
+  109  rails g model Product
+  110  rails g model Category
+  111  rails g model Brand
+  112  rake db:migrate
+  113  rake db:rollback
+  114  rake db:migrate
+  115  rails g migration create_product_table
+  116  rake db:migrate
+  117  rake db:drop
+  118  rake db:reset
+  119  ^[[200~bin/rails db:environment:set RAILS_ENV=development
+  120  ~rake db:drop
+  121  rake db:migrate
+  122  bundle exec rake db:migrate
+  123  bundle exec rake db:drop
+  124  rails db:drop
+  125  rails -v
+  126  rake db:drop
+  127  rake db:create
+  128  rake db:migrate
+  129  rails g model Category name
+  130  rails g model Brand name
+  131  rails g model Product name brand:references category:references description:text price:integer
+  132  rake db:migrate
+  133  rails g controller product
+  134  rails routes
+  135  rails g controller Articles
+  136  rake db:migrate
+  137  rake routes
+  138  rails server
+  139  ls
+  140  rake db:drop
+  141  rake db:create
+  142  rake db:migrate
+  143  rails s
+  144  bundle
+  145  rails s
+  146  rails g controller Brand
+  147  rails s
+  148  init 0
+  149  git -v
+  150  git --version
+  151  git config yser.name
+  152  git config user.name
+  153  git config user.email
+  154  git help config
+  155  cd ~
+  156  ls
+  157  ls -all
+  158  cat ~/.gitconfig | less
+  159  init 0
+  160  git config --global core.autocrlf input
+  161  git config --global core.autocrlf true
+  162  git config --global core.autocrlf input
+  163  git config --global core.autocrlf 
+  164  ls
+  165  cd Desktop
+  166  mkdir git-folder
+  167  cd git-folder
+  168  git init
+  169  ls -al
+  170  cd .git
+  171  ls -la
+  172  cd ..
+  173  git status
+  174  echo $EDITOR
+  175  mkdir {images,css,js}
+  176  cd css
+  177  touch app.css
+  178  cd ..
+  179  touch index.html
+  180  cd js
+  181  touch app.js
+  182  cd ..
+  183  git status
+  184  tree .
+  185  tree
+  186  git status --untracked-files
+  187  git add css/app.css
+  188  git status
+  189  subl .
+  190  git status
+  191  git config --global alias.lg "log --graph --decorate --oneline --all"
+  192  git status
+  193  git add css/app.css
+  194  git status
+  195  git diff 
+  196  git diff css/app.css
+  197  git status
+  198  git commit 
+  199  git lg
+  200  git help everyday
+  201  ls
+  202  git status
+  203  git add index.html
+  204  git commit -m "empty files"
+  205  git status
+  206  git add .
+  207  git status
+  208  sudo apt get install tree
+  209  sudo apt-get install tree
+  210  ls
+  211  mv js/app.js js/application.js
+  212  git status
+  213  git add .
+  214  git status
+  215  git commit -m "ile name changed"
+  216  git lg
+  217  git status
+  218  tree .
+  219  mkdir blog
+  220  git status
+  221  touch blo/.gitkeep
+  222  touch blog/.gitkeep
+  223  git add .
+  224  git branch
+  225  git branch photo-gallery
+  226  git branch
+  227  git checkout photo-gallery
+  228  git branch
+  229  mkdir gallery
+  230  touch index.html
+  231  git add .
+  232  git  log
+  233  tree 
+  234  git diff head photo-gallery
+  235  git merge photo-gallery
+  236  tree .
+  237  git add .
+  238  git status
+  239  git log
+  240  git commit -m "eklendi"
+  241  git log
+  242  gi checkout yeni
+  243  git checkout yeni
+  244  git branch  yeni
+  245  git checkout yeni
+  246  git add .
+  247  git commit -m"translated"
+  248  git log
+  249  git lg
+  250  git log
+  251  git checkout master
+  252  git merge yeni
+  253  git lg
+  254  git reset --hard HEAD~1
+  255  git log
+  256  git lg
+  257  git config rerere.enabled
+  258  init 0
+  259  git config --system color.ui
+  260  git config --system color.ui true
+  261  ~/.gitconfig 
+  262  ~/.gitconfig [color "branch"]\n    current = yellow reverse\n    local = yellow\n    remote = green\n\n[color "diff"]\n    meta = yellow bold\n    frag = magenta bold\n    old = red bold\n    new = green bold\n\n[color "status"]\n    added = yellow bold\n    changed = green\n    untracked = red
+  263  git config color.status addes
+  264  git config color.status added
+  265  ls
+  266  pwd
+  267  cd Desktop
+  268  ls
+  269  cd git-folder
+  270  ls
+  271  cd ~/.gitconfig 
+  272  cd ..
+  273  cd ~/.gitconfig 
+  274  gitconfig
+  275  pwd
+  276  ls
+  277  ls -all
+  278  cd .gitconfig
+  279  cd /.gitconfig
+  280  git config --global color.status auto\ngit config --global color.diff auto\ngit config --global color.branch auto
+  281  git config color.status.added
+  282  init 0
+  283  ls
+  284  cd Downloads
+  285  ls
+  286  cd lyk2017_journal-master
+  287  bundle
+  288  cd ..
+  289  cd .
+  290  pwd
+  291  cd ~
+  292  cd Downloads
+  293  cd lyk2017_journal-master
+  294  bundle
+  295  git log
+  296  rails db:setup
+  297  git log
+  298  bin/rspec
+  299  rails server
+  300  rails generate model User email password role:integer
+  301  annotate
+  302  rails db:migrate
+  303  annotate
+  304  rails generate annotate:install
+  305  annotate
+  306  bundle exec annotate 
+  307  annotate
+  308  rails db:migrate
+  309  rails generate annotate:install
+  310  rails db:migrate
+  311  subl .
+  312  rails g model Profile gravatar first_name last_name user:references
+  313  rails db:migrate
+  314  rspec spec/models/profile_spec.rb
+  315  bin/rspec spec/models/profile_spec.rb
+  316  bin/rails g model Post title body:text user:references status:integer slug
+  317  rails db:migrate
+  318  bin/rails db:migrate RAILS_ENV=test
+  319  bin/rspec spec/models/post_spec.rb 
+  320  env
+  321  eecho $TMPPREFIX
+  322  echo $TMPPREFIX
+  323  echo $RAILS_ENV
+  324  bin/rails g model Comment post:references user:references body status:integer
+  325  rails db:migrate
+  326  bin/rails db:migrate RAILS_ENV=test
+  327  git status
+  328  cd Downloads
+  329  cd lyk2017_journal-master
+  330  git status
+  331  subl .
+  332  bin/rails g model Tag 
+  333  rails db:migrate
+  334  bin/rspec spec/models/tag_spec.rb 
+  335  bin/rails db:migrate RAILS_ENV=test
+  336  bin/rspec spec/models/tag_spec.rb 
+  337  bin/rspec spec/models -f p
+  338  bin/rails db:migrate RAILS_ENV=test
+  339  bin/rspec spec/models -f p
+  340  bin/rails db:migrate RAILS_ENV=test
+  341  bin/rspec spec/models -f p
+  342  bin/rails g migration posts_tags_joın_table
+  343  bin/rails g migration posts_tags_joın_table.rb
+  344  bin/rails g migration posts_tags_join_table.rb
+  345  bin/rails g migration posts_tags_join_table
+  346  bin/rails db:migrate 
+  347  rails c
+  348  bin/rails db:migrate 
+  349  rails c
+  350  bin/rspec spec/models -f p
+  351  bin/rails db:migrate RAILS_ENV=test
+  352  bin/rspec spec/models -f p
+  353  rails c
+  354  cd Downloads
+  355  cd lyk2017_journal-master
+  356  rails 
+  357  q
+  358  rails c
+  359  bin/rails db:migrate 
+  360  rails c
+  361  bin/rspec spec/models -f p
+  362  git add .
+  363  git status
+  364  git config --system --unset core.autocrlf
+  365  git status
+  366  git config --global core.autocrlf false
+  367  git status
+  368  cd
+  369  ls -a
+  370  nano .gitconfig
+  371  git status
+  372  nano .gitconfig
+  373  exit
+  374  cd Downloads/lyk2017_journal-master
+  375  git status
+  376  nano ~/.gitconfig
+  377  git status
+  378  ls -al
+  379  git inşt
+  380  git init
+  381  git status
+  382  git add .
+  383  git status
+  384  bin/rspec spec/models -f p
+  385  bin/rails g model Like user:references post:references
+  386  bin/rails db:migrate
+  387  bin/rspec spec/models -f p
+  388  bin/rails db:environment:set RAILS_ENV=test
+  389  bin/rspec spec/models -f p
+  390  git status
+  391  git add .
+  392  rails c
+  393  bin/rspec spec/models -f p
+  394  ls
+  395  pwd
+  396  cd Desktop
+  397  ls
+  398  cd git-folder
+  399  ls
+  400  git status
+  401  git remote -v
+  402  git clone https://github.com/Lyk2017RoR/lyk2017_journal
+  403  git remote -v
+  404  ls
+  405  cd lyk2017_journal
+  406  git remote -v
+  407  bundle install
+  408  bin/rails g migration RenameColumnPassswordtoPasswordDigestInUsers
+  409  bin/rails db:migrate
+  410  bin/rake routes
+  411  bin/rails g controller users
+  412  bin/rails stats
+  413  bin/rails g controller users new edit show
+  414  bin/rails routes
+  415  rails s
+  416  cd 
+  417  cd Downloads
+  418  cd lyk2017_journal-master/lyk2017_journal
+  419  bin/rails routes
+  420  pry
+  421  cd Downloads
+  422  cd lyk2017_journal-master/lyk2017_journal
+  423  subl .
+  424  bin/rails g controller sessions new 
+  425  cd Dow
+  426  cd Downloads
+  427  cd lyk2017_journal-master/lyk2017_journal
+  428  rails s
+  429  bin/rails g controller welcome
+  430  bin/rails db:migrate
+  431  help
+  432  source "$home/.bashrc"
+  433  ~/.profile
+  434  pwd
+  435  .profike
+  436  .profile
+  437  ~/.profile
+  438  help
+  439  env
+  440  $man ls
+  441  man ls
+  442  man xargs
+  443  find . -iname '*1*.jpg' | xags -n 1 echo "bulunan:"
+  444  q
+  445  find . -iname '*1*.jpg' | xargs -n 1 echo "bulunan:"
+  446  git pull origin master
+  447  bin/rails db:migrate
+  448  bundle install
+  449  bin/rails db:migrate RAILS_ENV=test
+  450  git clone https://github.com/Lyk2017RoR/lyk2017_journal
+  451  git pull origin master
+  452  bundle install
+  453  bin/rails db:migrate RAILS_ENV=test
+  454  ls
+  455  cd lyk2017_journal
+  456  ls
+  457  bin/rails db:migrate RAILS_ENV=test
+  458  git pull origin master
+  459  bundle install
+  460  bin/rails db:migrate RAILS_ENV=test
+  461  subl .
+  462  bin/rspec spec/features
+  463  cd Downloads
+  464  cd lyk2017_journal-master/lyk2017_journal
+  465  ls
+  466  cd lyk2017_journal
+  467  ls
+  468  rails s
+  469  bin/rails g controller posts index edit show
+  470  git pull origin master
+  471  ls
+  472  git pull origin master
+  473  git clone https://github.com/Lyk2017RoR/lyk2017_journal
+  474  ls
+  475  cd lyk2017_journal
+  476  ls
+  477  subl .
+  478  bin/rails g controller comments
+  479  init 0
+  480  cd Downloads
+  481  cd lyk2017_journal-master/lyk2017_journal
+  482  ls
+  483  cd lyk2017_journal
+  484  ls
+  485  cd lyk2017_journal
+  486  ld
+  487  ls
+  488  subl.
+  489  subl .
+  490  git pull origin master
+  491  git clone https://github.com/Lyk2017RoR/lyk2017_journal
+  492  ls
+  493  cd lyk2017_journal
+  494  ls
+  495  cd Downloads
+  496  cd lyk2017_journal-master/lyk2017_journal/lyk2017_journal/lyk2017_journal
+  497  ls
+  498  cd lyk2017_journal
+  499  ls
+  500  bin/rails db:migrate
+  501  bundle install
+  502  bin/rails db:migrate
+  503  rails s
+  504  git pull origin master
+  505  bundle install
+  506  git pull origin master
+  507  bundle install
+  508  git checkout
+  509  git pull origin master
+  510  git clone https://github.com/Lyk2017RoR/lyk2017_journal
+  511  bundle install
+  512  subl .
+  513  cd Downloads
+  514  cd lyk2017_journal
+  515  ls
+  516  subl .
+  517  cd Downloads
+  518  cd lyk2017_journal
+  519  ls
+  520  rails s
+  521  git pull origin master
+  522  bundle install
+  523  bin/rails db:migrate
+  524  rails s
+  525  git pull origin master
+  526  bundle install
+  527  ls
+  528  subl .
+  529  rails c
+  530  rails console
+  531  rails s
+  532  rails c
+  533  echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+  534  rails c
+  535  rails s
+  536  git pull origin master
+  537  bundle install
+  538  rails c
+  539  bin/rails db:migrate
+  540  rails c
+  541  git staged
+  542  git stage
+  543  git checkout rollback
+  544  git pull otigin master
+  545  git pull rollback master
+  546  git checkout --rollback
+  547  git pull rollback master
+  548  cd ..
+  549  ls
+  550  cd lyk2017_journal-rollback
+  551  cd ..
+  552  cd lyk2017_journal-rollback
+  553  rails s
+  554  subl .
+  555  bin/rails db:migrate RAILS_ENV=development
+  556  rails c
+  557  cd ..
+  558  ls
+  559  cd lyk2017_journal
+  560  cd ..
+  561  cd lyk2017_journal
+  562  ls
+  563  rails s
+  564  subl .
+  565  git pull origin master
+  566  bundle install
+  567  git checkout master
+  568  git pull origin master
+  569  bundle install
+  570  subl .
+  571  bin/rails db:migrate RAILS_ENV=development
+  572  ls
+  573  rails c
+  574  git pull origin master
+  575  bundle install
+  576  subl .
+  577  ls
+  578  rails s
+  579  git add .
+  580  git commit -m "haml dönmeden önce"
+  581  gem "haml-rails"
+  582  gem "haml"
+  583  gem install haml
+  584  gem "haml"
+  585  rails generate haml:application_layout convert
+  586  rails generate --help
+  587  rake haml:erb2haml
+  588  subl .
+  589  bundle install
+  590  rake
+  591  subl .
+  592  git submodule update --init
+  593  ruby -Itest test/helper_test.rb -n test_buffer_access
+  594  rails generate haml:application_layout convert
+  595  rake haml:erb2haml
+  596  cd Downloads
+  597  cd lyk2017_journal-master
+  598  ls
+  599  rails s
+  600  bundle install
+  601  rails s
+  602  cd Downloads
+  603  cd lyk2017_journal-master
+  604  git pull origin master
+  605  bundle install
+  606  bin/rails db:migrate
+  607  cd ..
+  608  git clone https://github.com/Lyk2017RoR/lyk2017_journal
+  609  ls
+  610  cd lyk2017_journal
+  611  cd ..
+  612  cd lyk2017_journal
+  613  rails s
+  614  bundle install
+  615  rails s
+  616  bin/rails db:migrate
+  617  subl .
+  618  rails c
+  619  cd Dow
+  620  cd Downloads
+  621  cd lyk2017_journal
+  622  ls
+  623  bundle install
+  624  rails generate devise:install
+  625  rails generate devise User
+  626  rails db:migrate
+  627  cd ..
+  628  ls
+  629  cd Desktop
+  630  mkdir magaz6
+  631  rails new magaz6
+  632  cd magaz6
+  633  subl .
+  634  cd ..
+  635  cd.
+  636  cd ..
+  637  cd Downloads
+  638  ls
+  639  cd magaz6-master
+  640  subl .
+  641  rails new magaz6
+  642  ls
+  643  cd magaz6
+  644  subl .
+  645  cd ..
+  646  cd Dow
+  647  cd ..
+  648  cd Downloads
+  649  cd magaz6-master
+  650  ls
+  651  subl .
+  652  bundle install
+  653  subl .
+  654  bin/rails g model Product name:string title:string price:integer status:text brand_id category_id
+  655  bin/rails db:migrate
+  656  bin/rails remove model Product
+  657  bin/rails destroy model Product
+  658  bin/rails db:migrate
+  659  bin/rails g model Product name:string title:string photo:string description:text price:integer status:text brand_id category_id
+  660  bin/rails db:migrate
+  661  bin/rails g model Product name:string title:string photo:string description:text price:integer status:text brand_id category_id
+  662  bin/rails db:migrate
+  663  bundle exec rake db:rollback
+  664  bin/rails destroy model Product
+  665  bundle exec rake db:rollback
+  666  bin/rails db:migrate
+  667  bin/rails g model Product name:string title:string photo:string description:text price:integer status:text brand_id category_id
+  668  bin/rails db:migrate
+  669  git reset --hard
+  670  bin/rails db:reset
+  671  bin/rails g model Product name:string title:string photo:string description:text price:integer status:text brand_id category_id
+  672  bin/rails db:migrate
+  673  bin/rails g model Product name:string title:string photo:string description:text price:integer status:text brand_id category_id
+  674  bin/rails db:migrate
+  675  rails c
+  676  bin/rails db:reset
+  677  bin/rails destroy model Product
+  678  bundle exec rake db:rollback
+  679  bin/rails destroy model Product
+  680  bin/rails g model Product name:string title:string photo:string description:text price:integer status:text brand_id category_id
+  681  bin/rails db:migrate
+  682  bundle exec rake db:rollback
+  683  bin/rails destroy model Product
+  684  bin/rails g model Product name:string title:string photo:string description:text price:integer status:text brand_id category_id
+  685  bin/rails db:migrate
+  686  rails c
+  687  bin/rails g model Brand name:string
+  688  bin/rails db:migrate
+  689  bin/rails g model Category title:string photo:string slug:string
+  690  bin/rails db:migrate
+  691  git add .
+  692  git commit -m "Category Brand product modeli oluşturuldu"
+  693  ls
+  694  git init
+  695  git remote add https://github.com/Lyk2017RoR/magaz6.git
+  696  git remote -v
+  697  git add remote https://github.com/Lyk2017RoR/magaz6.git
+  698  git remote add https://github.com/Lyk2017RoR/magaz6.git
+  699  git remote add origin https://github.com/Lyk2017RoR/magaz6.git
+  700  git remote -v
+  701  git commit -m "Category Brand product modeli oluşturuldu"
+  702  git add .
+  703  git commit -m "Category Brand product modeli oluşturuldu"
+  704  git push 
+  705  git push origin master
+  706  git status
+  707  git push origin master
+  708  git pull origin master
+  709  git push origin master
+  710  rails g model User email password role
+  711  bin/rails db:migrate
+  712  rails g model Profile first_name last_name phone:integer birth_date:integer adress city
+  713  bin/rails db:migrate
+  714  rails g model Order user_id product_id status
+  715  bin/rails db:migrate
+  716  rails g model Ordered_Item order_id product_id
+  717  bin/rails db:migrate
+  718  rails g controller User 
+  719  rails g controller Product
+  720  rails g controller Profile
+  721  rails g controller Category
+  722  rails g controller Brands
+  723  rails g controller Order
+  724  rails g controller Ordered_Item
+  725  git add .
+  726  git commit -m "controller ve model oluşturuldu"
+  727  git push origin master
+  728  git remote -v
+  729  git branch develop
+  730  git checkout develop
+  731  git push origin develop
+  732* cd Downloads
+  733* cd magaz6-master
+  734* ls
+  735* rails s
+  736  bundle install
+  737  rails g controller Welcome index
+  738  git add .
+  739  git commit -m "devise gem edited"
+  740  git push origin develop
+  741  rails generate devise:install
+  742  bundle install
+  743  rails generate devise:install
+  744  bundle install
+  745  rails generate devise:install
+  746  bundle exec rails generate devise:install
+  747  rbenv versions
+  748  bundle update
+  749  bundle install
+  750  git pull origin develop
+  751  bundle install
+  752  rails generate devise USER
+  753  rails c
+  754  bin/rails db:migrate
+  755  rails c
+  756  bin/rails db:migrate
+  757  bin/rails db:reset
+  758  bin/rails db:migrate
+  759  rails generate devise:install
+  760  rails generate devise User
+  761  bin/rails db:migrate
+  762  rails c
+  763  rails generate devise User
+  764  bin/rails db:migrate
+  765  bin/rails db:reset
+  766  rake db:drop
+  767  rake db:create
+  768  rails db:migrate
+  769  git status
+  770  gt add --all
+  771  git add --all
+  772  git commit -m "Fix devise migration"
+  773  git push
+  774  git push origin develop
+  775* rails s
+  776  git status
+  777  git add .
+  778  rails c
+  779  git add .
+  780  git commit -m "devise basic login sign in features addition"
+  781  git push origin develop
+  782  bundle install
+  783  bin/rails db:migrate
+  784  bin/rails bundle exec db:migrate
+  785  rails db:migrate
+  786  rake acts_as_taggable_on_engine:install:migrations
+  787  rails db:migrate
+  788  rails g scaffold_controller Product
+  789  rails generate scaffold Tag name:string description:text photo:string
+  790  rails db:migrate
+  791  rails g scaffold_controller Tag
+  792  history
+  793  bin/rails g scaffold_controller Product name:string title:string photo:string description:text price:integer status:text brand_id category_id
+  794  history
+  795  rails generate scaffold_controller Tag name:string description:text photo:string
+  796  history
+  797  history | subl.
+  798  history | subl .
