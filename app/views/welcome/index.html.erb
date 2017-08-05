@@ -1,5 +1,12 @@
-<h1>Welcome Magaz6</h1>
-<%= link_to 'Categories', categories_path, :class => 'navbar-link' %>
-<%= link_to 'Brands', brands_path, :class => 'navbar-link' %>
-<%= link_to 'Products', products_path, :class => 'navbar-link' %>
-<%= link_to 'Tags',tags_path, :class => 'navbar-link' %>
+<div class="products">
+    <% @products.each do |product| %>
+      <div class="productFrame">
+       
+        <div class="a"><%= product.image %></div>
+        <div class="a"><%= product.name %></div>
+        <div class="a"><%= product.description %></div>
+        <div class="a"><%= product.price %></div>
+        
+      </div>
+    <% end %>
+  </div>

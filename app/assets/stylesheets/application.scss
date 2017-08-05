@@ -12,3 +12,18 @@
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+.products{
+	display: flex;
+	flex-direction: row;
+}
+
+.productFrame{
+	display: flex;
+	flex-direction: column;
+	margin: 1em;
+}
+
+.productFrame .a{
+	margin: .3em;
+}
