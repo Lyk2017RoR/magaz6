@@ -12,6 +12,9 @@
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
+*{
+}
+
 
 .products{
 	display: flex;
@@ -22,8 +25,25 @@
 	display: flex;
 	flex-direction: column;
 	margin: 1em;
+
+		background-color: rgba(58, 52, 36,.5);
+		padding: 1em;
+
 }
 
 .productFrame .a{
 	margin: .3em;
+	color:white;
+	background-color: rgba(58, 52, 36,.6);
+	padding: .5em;
+
+}
+
+.productFrame img{
+	align-self: center;
+	margin: auto;
+}
+
+.productFrame .b:after{
+	content:" ₺";
 }
